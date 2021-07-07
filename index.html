@@ -10,115 +10,202 @@
 </head>
 
 <body>
-    <div>
-        <p>Это по сути конспект из уроков Ивана Петриченко по JavaScript а также законспектирован курс Дениса
-            Мещерякова по HTML и CSS</p>
-        <p>Огромная благодарность этим людям за отлично изложенный материал</p>
+    <div class="page-header text-center text-uppercase text-bold">
+        <h1 class="page-title text-bold">Конспект JavaScript</h1>
+        <p class="page-description">Конспект из уроков Ивана Петриченко по JavaScript а также законспектирован курс
+            Дениса Мещерякова по HTML и CSS</p>
     </div>
+    <!-- /.page-header -->
 
-    <!-- Меню с тремя основными разделами -->
     <div class="menu">
-        <h2>Меню</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+        <ul class="menu-link">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Лайфхак</a></li>
         </ul>
     </div>
-    <!-- Оглавление в виде списка со ссылками -->
+    <!-- /.menu -->
+
     <div class="contents">
-        <p>
-            <h2>Оглавление</h2>
-        </p>
+        <h3 class="contents-head text-bold text-uppercase">Оглавление</h3>
+        <div class="contents-js">
+            <h3 class="contents-title">JavaScript</h3>
+            <h4 class="contents-sub-title">Основы JavaScript</h4>
+            <ol class="contents-list">
+                <li><a href="#">Условия</a></li>
+                <li><a href="#">Циклы</a></li>
+                <li><a href="#">Функции и стрелочные функции</a></li>
+                <li><a href="#">Методы и свойства строк и чисел</a></li>
+                <li><a href="#">Callback-функции</a></li>
+                <li><a href="#">Объекты. Деструктуризация объектов</a></li>
+                <li><a href="#">Массивы и псевдомассивы</a></li>
+                <li><a href="#">Передача по ссылке, по значению</a></li>
+                <li><a href="#">Spread-оператор</a></li>
+                <li><a href="#">Основы ООП</a></li>
+                <li><a href="#">Получение элементов со страницы</a></li>
+                <li><a href="#">Действие с элементами на странице</a></li>
+                <li><a href="#">События и их обработчики</a></li>
+                <li><a href="#">Навигация по DOM-элементам, data-атрибуты</a></li>
+                <li><a href="#">События на мобильных экранах</a></li>
+                <li><a href="#">Async, defer, диинамические скрипты</a></li>
+            </ol>
+            <h4 class="contents-sub-title">JavaScript в работе</h4>
+            <ol class="contents-list">
+                <li><a href="#">ClassList и делегирование событий</a></li>
+                <li><a href="#">Создание табов</a></li>
+                <li><a href="#">setTimeout, setInterval</a></li>
+                <li><a href="#">Работа с датами</a></li>
+                <li><a href="#">Таймер обратного отсчета</a></li>
+                <li><a href="#">Параметры документа, окна и работа с ними</a></li>
+                <li><a href="#">Модальное окно и его модификации</a></li>
+                <li><a href="#">Функции-конструкторы</a></li>
+                <li><a href="#">This. Контекст вызова</a></li>
+                <li><a href="#">Классы</a></li>
+                <li><a href="#">Rest-оператор и параметры по умолчанию</a></li>
+            </ol>
+            <h4 class="contents-sub-title">Продвинутый JavaScript</h4>
+            <ol class="contents-list">
+                <li><a href="#">Something</a></li>
+                <li><a href="#">Something</a></li>
+                <li><a href="#">Something</a></li>
+                <li><a href="#">Something</a></li>
+                <li><a href="#">Something</a></li>
+                <li><a href="#">Something</a></li>
+            </ol>
+        </div>
+        <!-- /.contents-js -->
 
-        <ol class="html-list">
-            <p>
-                <h3>HTML</h3>
-            </p>
+        <div class="contents-html">
+            <h3 class="contents-title">HTML</h3>
+            <ol class="contents-list">
+                <li><a href="#">Принципы структурирования страницы</a></li>
+                <li><a href="#">Одностраничный или многостраничный сайт?</a></li>
+                <li><a href="#">Формы</a></li>
+                <li><a href="#">Привязка страницы к хосту</a></li>
+                <li><a href="#">Привязка базы данных</a></li>
+                <li><a href="#">Безопасность моего веб-приложения</a></li>
+                <li><a href="#">Lorem ipsum dolor sit</a></li>
+            </ol>
+        </div>
+        <!-- /.contents-html -->
 
-            <li></li>
-            <li></li>
-            <li></li>
+        <div class="contents-css">
+            <h3 class="contents-title">CSS</h3>
+            <h4 class="contents-sub-title">Основы CSS</h4>
+            <ol class="contents-list">
+                <li><a href="#">Методы подключения стилей</a></li>
+                <li><a href="#">Приоритетность стилей</a></li>
+                <li><a href="#">Псевдоклассы и псевдоэлементы</a></li>
+                <li><a href="#">Позиционирование элементов</a></li>
+                <li><a href="#">Введение во Flexbox</a></li>
+            </ol>
+            <h4 class="contents-sub-title">Верстка страницы</h4>
+            <ol class="contents-list">
+                <li><a href="#">Подключение шрифтов</a></li>
+                <li><a href="#">Верстка шапки</a></li>
+                <li><a href="#">Верстка раздела About Us</a></li>
+            </ol>
+            <h4 class="contents-sub-title">Верстка проекта MailGenius</h4>
+            <ol class="contents-list">
+                <li><a href="#">Lorem ipsum dolor sit amet. </a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet. </a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet. </a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet. </a></li>
+            </ol>
+            <h4 class="contents-sub-title">CSS Grid</h4>
+            <ol class="contents-list">
+                <li><a href="#">Lorem, ipsum dolor. </a></li>
+                <li><a href="#">Lorem, ipsum dolor. </a></li>
+                <li><a href="#">Lorem, ipsum dolor. </a></li>
+                <li><a href="#">Lorem, ipsum dolor. </a></li>
+            </ol>
 
-        </ol>
+        </div>
+        <!-- /.contents-css -->
 
-        <ol class="css-list">
-            <p>
-                <h3>CSS</h3>
-            </p>
-
-            <li>Методы подключения стилей</li>
-            <li>Приоритетность стилей</li>
-            <li></li>
-
-        </ol>
-
-        <ol class="js-list">
-            <p>
-                <h3>JavaScript</h3>
-            </p>
-
-            <p>
-                <h4>Основы JavaScript</h4>
-            </p>
-
-            <li>Условия</li>
-            <li>Циклы</li>
-            <li>Функции и стрелочные функции</li>
-            <li>Методы и свойства строк и чисел</li>
-            <li>Callback-функции</li>
-            <li>Объекты. Деструктуризация объектов</li>
-            <li>Массивы и псевдомассивы</li>
-            <li>Передача по ссылке, по значению</li>
-            <li>Spread-оператор</li>
-            <li>Основы ООП</li>
-            <li>Получение элементов со страницы</li>
-            <li>Действие с элементами на странице</li>
-            <li>События и их обработчики</li>
-            <li>Навигация по DOM-элементам, data-атрибуты</li>
-            <li>События на мобильных экранах</li>
-            <li>Async, defer, диинамические скрипты</li>
-
-            <p>
-                <h4>JavaScript в работе</h4>
-            </p>
-
-            <li>ClassList и делегирование событий</li>
-            <li>Создание табов</li>
-            <li>setTimeout, setInterval</li>
-            <li>Работа с датами</li>
-            <li>Таймер обратного отсчета</li>
-            <li>Параметры документа, окна и работа с ними</li>
-            <li>Модальное окно и его модификации</li>
-            <li>Функции-конструкторы</li>
-            <li>This. Контекст вызова</li>
-            <li>Классы</li>
-            <li>Rest-оператор и параметры по умолчанию</li>
-
-            <p>
-                <h4>Продвинутый JavaScript</h4>
-            </p>
-
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-
-        <p>Задачи</p>
+        <div class="contents-huck">
+            <h3 class="contents-title">Лайфхак</h3>
+            <ol class="contents-list">
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet consectetur</a></li>
+            </ol>
+        </div>
+        <!-- /.contents-huck -->
     </div>
+    <!-- /.contents -->
+    <hr>
+    <div class="container">
+        <div class="container-js">
+            <h2 class="container-title">JavaScript</h2>
+            <div class="container-text">
+                <h3 class="container-subtitle">Переменные</h3>
+                <p class="container-text-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem
+                    repellat
+                    enim id nisi expedita alias. Facere aliquam eaque nemo minus excepturi consequatur dolorum, atque
+                    molestiae porro nulla, consequuntur ex consectetur doloribus adipisci commodi laudantium modi
+                    aperiam velit reiciendis sapiente. Saepe at explicabo quas pariatur amet nemo nulla rerum incidunt
+                    voluptatum fuga, consequatur, repellendus nam qui sequi debitis enim! Maxime ut totam, rem aliquam
+                    laboriosam nemo omnis cumque ratione voluptatem quam dolores dolorem beatae sapiente? Quas natus
+                    reiciendis quam atque modi nam vel excepturi fuga omnis. Minima ea amet culpa animi! Soluta quaerat
+                    quas facilis enim corporis voluptate iusto illum.</p>
+            </div>
+        </div>
+        <!-- /.container-js -->
+
+        <div class="container-html">
+            <h2 class="container-title">HTML</h2>
+            <div class="container-text">
+                <h3 class="container-subtitle">Теги</h3>
+                <p class="container-text-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+                    inventore
+                    consequatur praesentium possimus nihil laboriosam adipisci ipsa voluptas officiis, natus quam
+                    consequuntur sapiente aliquid odio perferendis. Magni eius tempora pariatur distinctio aliquid
+                    labore. Aperiam illum unde facere excepturi odio sit repudiandae sed explicabo cumque? Qui
+                    aspernatur veritatis eaque, obcaecati illo dolore odio ipsam dolorem adipisci quas ab dolor sapiente
+                    repellendus debitis suscipit quidem consectetur laborum quisquam maxime ad? Earum, laborum
+                    architecto? Magni, expedita vel qui at sunt et? Veritatis, nesciunt.</p>
+            </div>
+        </div>
+        <!-- /.container-html -->
+
+        <div class="container-css">
+            <h2 class="container-title">CSS</h2>
+            <div class="container-text">
+                <h3 class="container-subtitle">Приоритетность стилей</h3>
+                <p class="container-text-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias
+                    quis
+                    cupiditate quidem tempore qui voluptatibus sed ratione at repellat officia, dolor nisi libero
+                    impedit eum porro laboriosam temporibus perspiciatis magnam distinctio quod consequuntur rem eos
+                    odit! Dolore, quasi excepturi magni autem laudantium illo, porro vero enim sapiente aliquam neque
+                    distinctio dolores adipisci voluptatem officiis odit vel error? Recusandae illo nostrum sequi
+                    facilis sint voluptatem, est quas quibusdam dolorum earum fugiat beatae debitis quos obcaecati
+                    doloremque molestias consequuntur voluptas officia quae aliquid illum natus. Dicta praesentium
+                    excepturi a tempora earum, qui inventore eaque molestiae esse!</p>
+            </div>
+        </div>
+        <!-- /.container-css -->
+        <div class="container-huck">
+            <h2 class="container-title">Лайфхак</h2>
+            <div class="container-text">
+                <h3 class="container-subtitle">Таймер</h3>
+                <p class="container-text-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate
+                    facere officiis, provident delectus aperiam, tempora et fuga laudantium dicta dolores ducimus eos
+                    molestiae fugiat distinctio architecto id minus explicabo quae nisi necessitatibus nam
+                    exercitationem. Dolores veritatis sunt debitis earum temporibus nobis asperiores voluptates ducimus
+                    illum in, expedita distinctio alias beatae, nemo impedit delectus amet! Odio minima aut officiis
+                    saepe quam doloremque maiores recusandae laborum quae maxime sit illo magnam esse eum, fugit ipsa
+                    nihil numquam? Ad unde optio adipisci accusamus, molestias excepturi nam inventore dolore esse
+                    voluptate saepe quae officiis est quisquam repellendus deserunt iste tempore eligendi eveniet
+                    maxime.</p>
+            </div>
+        </div>
+        <!-- /.container-huck -->
+    </div>
+    <!-- /.container -->
 
     <script src="js/main.js"></script>
 </body>

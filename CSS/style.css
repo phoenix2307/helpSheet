@@ -1,15 +1,74 @@
+/* Базовые стили + типичные для группы элементов */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.page-header {
+    border: 3px solid black;
+    background-color: rgb(255 254 0 / 36%);
+}
+.page-title {
+    letter-spacing: 3px;
+}
+
+.page-description {
+    font-size: 12px;
+    color: gray;
+}
+/* меню. шапка */
 .menu {
-    background-color: rgb(190, 190, 190);
+    margin-top: 50px;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 5em; */
+    border-left: 3px solid red;
 }
 
-.html-list {
-    background-color:rgb(224, 148, 98);
+.menu-link {
+    color: orange;
 }
 
-.css-list {
-    background-color: rgb(97, 140, 219);
+/* Оглавление */
+
+.contents {
+    color: rgb(82, 80, 80);
+    width: 500px;  
 }
 
-.js-list {
-    background-color: rgb(248, 230, 124);
+.contents-head {
+    color: black;
+    margin-top: 50px;
+    border-bottom: 2px solid maroon;
+    padding-bottom: 3px;
+    width: 100%;
 }
+
+.contents-js {
+    border: 1px solid black;
+    background-color: rgba(255, 218, 53, 0.664);
+    padding-left: 10px;
+}
+
+
+/* Наполнение */
