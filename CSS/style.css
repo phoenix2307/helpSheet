@@ -38,7 +38,7 @@ a {
 }
 
 .page-description {
-    font-size: 12px;
+    font-size: 15px;
     color: gray;
 }
 /* меню. шапка */
@@ -98,6 +98,11 @@ a {
 }
 
 /* Наполнение */
+
+.container-title {
+    border-bottom: 2px solid black;
+}
+
 .container-padding {
     padding: 2px 10px 5px 15px;
     margin-bottom: 10px;
